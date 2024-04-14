@@ -1,0 +1,231 @@
+body {
+	background: white url(Images/background_dessin.jpg) no-repeat 100% 81%;
+	color: #575F7D;
+	font-family: cambria math
+	font-size: 16px
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+
+h1 {
+	font-family: Edwardian Script ITC;
+    color: #290149;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 60px;
+}
+
+h2 {
+	font-family: Copperplate Gothic Bold;
+    color: #009305;
+    font-size: 50px;
+    font-weight: lighter;
+}
+
+h3 {
+	font-family: Edwardian Script ITC;
+	color: #009305;
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: #484018;
+	font-weight: bold
+	font-size: 16px;
+}
+
+a:hover {
+	color: #290149;
+}
+
+/*custom design with class (99% of your design)*/
+.banner{
+	background-image:url(Images/banner_rose.jpg);
+	color: white; 
+	padding: 145px 50px;
+	text-align: left;
+	background-size: cover;
+	background-position: cover;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 4px;
+}
+
+.banner h1{
+	font-family: Edwardian Script ITC;
+	font-size: 60px;
+	font-weight: bolder;
+	margin: 0px;
+}
+
+.banner h2{
+	font-size: 30px;
+	font-weight: lighter;
+	opacity: 0.8px;
+	margin-bottom: 40px;
+}
+
+.btn-purple-banner{
+	background-color: #290149;
+	color: white;
+	padding: 10px 25px;
+	border-radius: 4px;
+}
+.btn-purple-banner:hover {
+	background-color:  #009305;
+	color: white;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	/* For a screen <960px, this CSS will be read */
+	.container {
+		width: 700px;
+	}
+	
+}
+@media (max-width: 720px) {
+		/* For a screen <720px, this CSS will be read */
+	.container {
+		width: 500px;
+	}
+	
+}
+@media (max-width: 540px) {
+		/* For a screen <540px, this CSS will be read */
+	.container {
+		width: 350px;
+	}
+}
+
+@media (max-width: 960px) {
+	/* For a screen <960px, this CSS will be read */
+	.banner {
+		width: 700px;
+	}
+	
+}
+@media (max-width: 720px) {
+		/* For a screen <720px, this CSS will be read */
+	.banner {
+		width: 500px;
+	}
+	
+}
+@media (max-width: 540px) {
+		/* For a screen <540px, this CSS will be read */
+	.banner {
+		width: 380px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	padding-top: 10px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgba(0 0 0 / 10%);
+	border-radius: 4px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+	border: 10px black;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.7);
+}
+
+.btn-purple {
+	background-color: #290149;
+	color: white;
+	padding: 10px 25px;
+	border-radius: 4px;
+}
+
+.btn-purple:hover {
+	background-color:  #009305;
+	color: white;
+}
+
+.Luxury{
+	background-color:#290149;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+
+.Luxury:hover {
+	background-color: #009305;
+	color: white;
+}
+
+.Photographybtn {
+	background-color:#290149;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 4px;
+	font-size: 12px; 
+}
+
+.Photographybtn:hover {
+	background-color: #009305;
+	color: white;
+}
+
+.Cinema {
+	background-color:#290149;
+	color: white;
+	padding: 5px 15px;
+	border-radius: 4px;
+	font-size: 12px;
+}
+.Cinema:hover {
+	background-color: #009305;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+
+.list-inline li {
+	display: inline; 
+	padding: 10px;
+}
+
+.list-inline i {
+
+	font-size: 35px;
+	color :#290149;
+}
+
+.list-inline i:hover {
+
+	font-size: 35px;
+	color :#009305;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+	margin-bottom: 40px;
+}
+
+#Luxury p {
+	margin-bottom: 30px;
+}
+
+#Photographybtn p {
+	margin-bottom: 30px;
+}
+
+#Cinema p {
+	margin-bottom: 30px;
+}
